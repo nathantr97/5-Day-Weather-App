@@ -16,23 +16,52 @@ The motivation behind this project is to utilize server-side APIs in order to cr
 
 <li> Github Link </li>
 
+https://github.com/nathantr97/5-Day-Weather-App
 
 
 <li> Application Link </li>
 
+https://nathantr97.github.io/5-Day-Weather-App/
 
 ## Usage
 
-<li> When webpage is launched, users will see a blank search bar with a placeholder says "example: Bellingham". <li>
+<li> When webpage is launched, users will see a blank search bar with a placeholder says "example: Bellingham". </li>
 
+![alt=home-page](/assets/img/Home-page.png)
 
-<li> Users can input any valid city around the world to see the current weather and the next 5-day forecast for the selected city. The information will include date, temperature, wind and humidity </li>
+<li> User can input any valid city around the world to see the current weather and the next 5-day forecast for the selected city. The information will include date, temperature, wind and humidity </li>
 
+![alt=Seattle-example](/assets/img/first-example.png)
 
+<li> User can continue to search for other cities and their previous searches will be placed under their most recent input </li>
 
-<li> Users can continue to search for other cities and their previous searches will be placed under their most recent input </li>
-
-
+![alt=Seattle-Tokyo-Sydney-examples](/assets/img/three-cities.png)
 
 
 ## Credits
+<li> TA: </li>
+
+Kayla Fischer
+
+<li> Bulma: </li>
+
+https://bulma.io/documentation
+
+<li> W3 grid info:</li>
+
+https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
+
+<li> Open Weather Map: </li>
+
+https://openweathermap.org/api/geocoding-api
+
+https://openweathermap.org/current
+
+https://openweathermap.org/forecast5
+
+Icons:
+
+https://www.fileformat.info/info/unicode/char/b0/index.htm
+
+
+
