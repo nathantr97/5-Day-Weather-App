@@ -1,4 +1,4 @@
-# Weather-Forecast-App
+# 5-day Weather Forecast App
 
 ## Description
 
@@ -36,7 +36,6 @@ https://nathantr97.github.io/5-Day-Weather-App/
 <li> User can continue to search for other cities and their previous searches will be placed under their most recent input </li>
 
 ![alt=Seattle-Tokyo-Sydney-examples](/assets/img/three-cities.png)
-
 
 ## Credits
 <li> TA: </li>
