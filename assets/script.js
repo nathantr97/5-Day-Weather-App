@@ -18,10 +18,10 @@ var searchCity= document.getElementById("search-city");
 
 // variables for returned results after users look up their cities
 
-var citySearch=$("city-searched");
-var tempSearch=$("temp");
-var windSearch=$("wind");
-var humiditySearch=$("humidity");
+var citySearch=$("#city-searched");
+var tempSearch=$("#temp");
+var windSearch=$("#wind");
+var humiditySearch=$("#humidity");
 
 // function for button and also prevent browsers from overriding formats
 
@@ -64,7 +64,7 @@ fetch(weathermapURL)
 
             const userIcon = data2.weather[0].icon;
             const userWeatherIcon= document.createElement("img");
-            userWeatherIcon.setAttribute("src", "https://openweather.org/img/wn/" + userIcon + "@2x.png");
+            userWeatherIcon.setAttribute("src", "http://openweathermap.org/img/w/" + userIcon + ".png");
 
             citySearch.append(userWeatherIcon);
 
@@ -122,10 +122,7 @@ fetch(weathermapURL)
 
             var forecast5DayIcon = data3.list[0].weather[0].icon;
             var forecastIcon = document.createElement("img");
-            forecastIcon.setAttribute(
-                "src",
-                "http://openweathermap.org/img/wn/" +
-                    forecast5DayIcon + "@2x.png"
+            forecastIcon.setAttribute("src", "http://openweathermap.org/img/w/" + forecast5DayIcon + ".png"
             );
             fivedaysForecast[i].append(forecastIcon);
 
